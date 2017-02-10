@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body
+{
+	background-color: #ffffff;
+	margin: 0;
+	width: 100%;
+}
+
+#site-banner-bg
+{
+	background-color: #2d2d2a;
+	width: 100%;
+	padding: 10px;
+}
+
+#site-banner
+{
+	font-family: 'Montserrat';
+	font-size: 128px;
+	color: white;
+}
+
+.red
+{
+	color: #e74c3c;
+}
+
+.panel-danger h3
+{
+	color: white;
+}
+
+#banner
+{
+	margin-bottom: 0;
+}
+
+.navbar-inverse
+{
+	background-color: #2d2d2a;
+	border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav li>a
+{
+	color: white;
+}
+
+.election
+{
+	background-color: #2d2d2a;
+	color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btn-vote
+{
+	border-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

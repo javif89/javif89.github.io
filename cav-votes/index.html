@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="flatui/css/flat-ui.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<title>Cav Votes</title>
+</head>
+<body>
+	<div id="site-banner-bg">
+		<div class="container-fluid">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="text-center" id="site-banner">Cavalier <span class="red">V</span>otes</h1>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#" style="color: white;">Home</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Elections<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">Election Results</a></li>
+							<li><a href="">Past Elections</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Polls<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">Past Polls</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href=""><span class="glyphicon glyphicon-user"></span></a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="page-header">
+			<h1>Ongoing Elections</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-default election">
+					<div class="panel-body">
+						<h3>2017-2018 Junior Class Officers</h3>
+						<hr>
+						<h4>Voter Group: Juniors</h4>
+					</div>
+					<button class="btn btn-danger btn-lg btn-block btn-vote">Vote</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="page-header">
+			<h1>Ongoing Polls</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-default election">
+					<div class="panel-body">
+						<h3>2016-2017 Senior Prom Theme</h3>
+						<hr>
+						<h4>Voter Group: Seniors</h4>
+					</div>
+					<button class="btn btn-danger btn-lg btn-block btn-vote">Vote</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</html>
