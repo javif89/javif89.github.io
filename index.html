@@ -1,0 +1,91 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Simple Github</title>
+</head>
+<body>
+	<div class="container" id="header-container">
+		<div class="page-header" id="main-header">
+			<h1>Simple GitHub</h1>
+			<p>A simple, single page reference for common github commands.</p>
+		</div>
+	</div>
+	<div class="container" id="main-container">
+		<!--<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+				<div class="collapse navbar-collapse" id="site-nav">
+					<ul class="nav navbar-nav">
+						
+					</ul>
+				</div>
+			</div>
+		</nav>-->
+		
+		<h1 id="begin">Let's Begin:</h1>
+		<p class="lead"><b>*Disclaimer</b> this page assumes you already have knowledge on VCS and that you have already installed GitHub</p>
+
+		<div class="tut-section">
+			<div class="page-header">
+				<h1>Cloning a repository</h1>
+			</div>
+			<div class="tut-section-content">
+				<p class="lead">The process is actually very straight forward, just go on your command line in the colder where you want to clone the repository and use the command:</p>
+				<code>git clone &lt;source-url-here&gt;</code>
+			</div>
+		</div>
+
+		<div class="tut-section">
+			<div class="page-header">
+				<h1>Pushing changes to GitHub</h1>
+			</div>
+			<div class="tut-section-content">
+				<p class="lead">The process of pushing changes involves only a few steps.</p>
+				
+				<h3><b>Step 1: Adding files to track</b></h3>
+				
+				<p class="lead">You first need to add files to be tracked by GitHub. This tells GitHub that these are the files you're working on and the ones it should upload once you make the push.</p>
+				
+				<p class="lead">To add a specific file use:</p>
+				
+				<code>git add &lt;file-name-here&gt;</code>
+				
+				<p class="lead">To add <b>ALL</b> the files use:</p>
+				
+				<code>git add .</code>
+				
+				<h3><b>Step 2: Commiting Changes</b></h3>
+				
+				<code>git commit -m "insert documentation message explaining what you changed here"</code>
+				
+				<h3><b>Step 3: Pushing to the Repository</b></h3>
+				
+				<code>git push</code>
+				
+				<p class="lead">When you push it might ask for your GitHub username and password if you have not done a push before. Just put them in and it will work.</p>
+			</div>
+		</div>
+		<div class="tut-section">
+			<div class="page-header">
+				<h1>Pulling changes from GitHub</h1>
+			</div>
+			<div class="tut-section-content">
+				<p class="lead"> This process should be done before beginning your work. However it should not be done in the middle of your work before pushing your own changes as you might lose your work</p>
+				<code>git pull</code>
+				<p class="lead"> This code will update your folder's files with ones from the GitHub repository.</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		Made with &#10084 by Osmani Alegre and Javier Feliz, Copyright 2016
+	</footer>
+</body>
+</html>
