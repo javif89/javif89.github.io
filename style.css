@@ -1,0 +1,55 @@
+h1
+{
+	text-transform: capitalize;
+}
+
+.banner-wrapper
+{
+	padding: 10px;
+}
+
+.banner
+{
+	padding: 10px;
+}
+
+.banner-section
+{
+	display: table-cell;
+}
+
+.img-section
+{
+	width: 30%;
+}
+
+.content-section
+{
+	vertical-align: middle;
+}
+
+.me
+{
+	border-radius: 50%;
+}
+
+.links
+{
+	list-style-type: none;
+}
+
+.links li
+{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.links li>a
+{
+	font-size: 24px;
+	color: black;
+}
