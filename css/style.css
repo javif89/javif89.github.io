@@ -1,0 +1,25 @@
+.img-responsive
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.img-round
+{
+	border-radius: 50%;
+}
+
+.devicon
+{
+	font-size: 128px;
+}
+
+#stackoverflow
+{
+	color: orange;
+}
+
+.larger-icon
+{
+	font-size: 32px;
+}
